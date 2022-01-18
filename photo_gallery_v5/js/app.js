@@ -1,11 +1,11 @@
-// baguetteBox.run('.gallery');
+baguetteBox.run('.gallery');​
 
 
-baguetteBox.run('.gallery', {
-    overlayBackgroundColor: 'rgba (255, 99, 71, 0)',
-    captions: true,
-    buttons: 'auto'
- });
+// baguetteBox.run('.gallery', {
+//     overlayBackgroundColor: 'rgba (255, 99, 71, 0)',
+//     captions: true,
+//     buttons: 'auto'
+//  });
 
 // const search = new Filter('search', 'data-caption');
 
