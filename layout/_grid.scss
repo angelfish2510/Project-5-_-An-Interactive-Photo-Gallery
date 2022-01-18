@@ -1,0 +1,7 @@
+.gallery {
+    --n: 5; /* The maximum number of columns */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max(200px, 100%/var(--n)), 1fr));
+    grid-gap: 10px;
+}

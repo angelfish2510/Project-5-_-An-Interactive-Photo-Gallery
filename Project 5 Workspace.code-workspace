@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "Project-5-Interactive-Photo-Gallery"
+		},
+		{
+			"path": "baguetteBox.js-dev"
+		},
+		{
+			"path": "base"
+		},
+		{
+			"path": "component"
+		},
+		{
+			"path": "layout"
+		},
+		{
+			"path": "photo_gallery_v5"
+		},
+		{
+			"path": "searchFilter.js"
+		},
+		{
+			"path": "utilities"
+		}
+	],
+	"settings": {}
+}
