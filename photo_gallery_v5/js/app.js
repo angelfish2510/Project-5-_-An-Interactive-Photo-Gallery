@@ -1,5 +1,4 @@
-baguetteBox.run('.gallery');​
-
+baguetteBox.run('.gallery');
 
 // baguetteBox.run('.gallery', {
 //     overlayBackgroundColor: 'rgba (255, 99, 71, 0)',
