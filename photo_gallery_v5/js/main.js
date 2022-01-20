@@ -17,4 +17,49 @@
 //   })
 // })
 
+// $(document).ready(function() {
+//     $('#search-photos').keyup(function() {
+//         $(this).attr('size', $(this).val().length)
+//     });
+// });
 
+let gallery2 = document.getElementsByClassName("gallery");
+
+let Pic = document.getElementsByClassName("search");
+
+function searchPics() {
+    let input = document.getElementById("searchBar").value;
+    input = input.toLowerCase();
+    // let picture = document.getElementsByClassName("search");
+
+    for ( i = 0; i < Pic.length; i++) {
+        if (!Pic[i].innerHTML.toLowerCase().includes(input)) {
+            Pic[i].getElementsByClassName.display="none";
+        }
+        else {
+            Pic[i].style.display="flex";
+        }
+    }
+}
+
+// let PicsFound = document.getElementsByClassName("search");
+
+// function searchPics() {
+//         let input = document.getElementById("searchBar").value;
+//         input = input.toLowerCase();
+
+//         let PicsFound = document.getElementsByClassName("search");
+//         // let PicturesFound = document.getElementsByTagName("IMG", "a");
+          
+//         for (i = 0; i < PicsFound.length; i++) { 
+//             if (!PicsFound[i].innerHTML.toLowerCase().includes(input)) {
+//                 PicsFound[i].style.display="none";
+//             }
+//             else {
+//                 PicsFound[i].style.display="flex";                 
+//             }
+//         }
+//     }
+    
+
+let test = prompt("This is a test");

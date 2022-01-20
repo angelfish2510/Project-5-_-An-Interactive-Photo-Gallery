@@ -349,6 +349,24 @@ a {
   text-decoration: none;
 }
 
+#searchBar {
+  margin-left: 5%;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+     change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
+
 .gallery {
   --n: 5;
   /* The maximum number of columns */
@@ -361,6 +379,8 @@ a {
 body {
   max-width: 80%;
   margin: auto;
+  background-color: #330066;
+  color: #336600;
 }
 
 .gallery a {
