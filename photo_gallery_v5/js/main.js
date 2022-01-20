@@ -42,6 +42,12 @@ function searchPics() {
     }
 }
 
+    //    if(input.toLowerCase().indexOf(Pic) != -1){
+    //         pictures.style.display = "block";
+    //         } else {
+    //         pictures.style.display = "none";
+    //         }
+    //     })
 // let PicsFound = document.getElementsByClassName("search");
 
 // function searchPics() {
