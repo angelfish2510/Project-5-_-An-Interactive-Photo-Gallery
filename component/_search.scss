@@ -1,12 +1,22 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 #searchBar{
-    margin-left: 5%;
     padding:15px;
-    border-radius: 10px;
+    border-color: #336600;
+    border-width: 4px;
+    border-radius: 8px;
+    background-color: #eddcff;
+    color: #330066;
   }
 
   input[type=text] {
-     width: 30%;
-     -webkit-transition: width 0.15s ease-in-out;
+     min-width: 30%;
+     -webkit-transition: width 1s ease-in-out;
      transition: width 0.15s ease-in-out;
   }
 

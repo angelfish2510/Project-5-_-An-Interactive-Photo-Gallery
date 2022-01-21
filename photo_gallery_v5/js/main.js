@@ -9,7 +9,7 @@ function searchPics() {
         caption = caption.toLowerCase();
 
         if (caption.includes(input)) {
-            gallery[i].style.display = "block";
+            gallery[i].style.display = "";
         } else {
             gallery[i].style.display = "none";
         }

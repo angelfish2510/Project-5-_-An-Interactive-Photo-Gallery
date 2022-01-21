@@ -1,14 +1,20 @@
+* {
+    font-family: 'Lato', sans-serif;
+  }
+
+
+p {
+line-height: 1.45em;
+}
+
+a {
+text-decoration: none;
+}
+
 body {
     max-width: 80%;
     margin: auto;
     background-color: #330066;
     color: #336600;
     
-}
-
-.gallery a {
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    max-height: 50%;
 }

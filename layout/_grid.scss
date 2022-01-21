@@ -8,4 +8,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(max(200px, 100%/var(--n)), 1fr));
     grid-gap: 10px;
+
+    a {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    img {
+        border-radius: 10%;
+    }
 }
