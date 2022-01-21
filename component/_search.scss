@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+
+  h1 {
+    text-align: center;
+  }
 }
 
 #searchBar{
@@ -23,5 +27,5 @@
   /* When the input field gets focus,
        change its width to 100% */
   input[type=text]:focus {
-    width: 70%;
+    width: 90%;
   }

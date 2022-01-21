@@ -343,6 +343,9 @@ template {
   align-items: center;
   margin-bottom: 10px;
 }
+.intro h1 {
+  text-align: center;
+}
 
 #searchBar {
   padding: 15px;
@@ -362,7 +365,7 @@ input[type=text] {
 /* When the input field gets focus,
      change its width to 100% */
 input[type=text]:focus {
-  width: 70%;
+  width: 90%;
 }
 
 .gallery {
@@ -395,7 +398,7 @@ a {
 }
 
 body {
-  max-width: 80%;
+  width: 90%;
   margin: auto;
   background-color: #330066;
   color: #336600;
